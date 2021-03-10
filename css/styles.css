@@ -1,0 +1,29 @@
+body {
+    padding:10px;
+}
+
+input {
+    /* display: grid; */
+    width:100%;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em; /* 24 / 16 = 1.5em */
+}
+
+input::placeholder {
+        font-size: 1em;
+}
+
+.gallery {
+   display: grid;
+   grid-template-columns: repeat(4, f1);
+   grid-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    /* padding-bottom:25px; */
+}
