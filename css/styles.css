@@ -23,7 +23,7 @@ input {
    grid-gap: 10px;
    margin: 0 auto;
    max-width: 875px;
-    justify-content: center;
+   justify-content: center;
 }
 
 .gallery img {
